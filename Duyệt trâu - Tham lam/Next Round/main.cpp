@@ -1,32 +1,34 @@
-#include<bits/stdc++.h>
+#include <iostream>
 using namespace std;
-int n,k;
- 
-int main()
+
+#define int long long
+const int MAXN = 1e4;
+int a[MAXN];
+int n, k, cnt = 0;
+
+signed main()
 {
-    cin>>n>>k;
-    int A[n];
-    for(int i=0;i<n;i++)
+    ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+    cin >> n >> k;
+    for(int i = 1; i <= n; ++i) cin >> a[i];
+    for(int i = 1; i < k; ++i)
     {
-        cin>>A[i];
-    }
-    int s=A[k-1], count = 0;
-    for(int i=0;i<k;i++)
-    {
-        if(A[i]!=0)
+        if(a[i] > 0)
         {
-            if(A[i]>=s)
-            count++;
+            cnt++;
         }
     }
-    for(int i=k;i<n;i++)
+
+    for(int i = k; i <= n; ++i)
     {
-        if(A[i]!=0)
+        if(a[i] > 0)
         {
-            if(A[i]==s)
-            count++;
+            if(a[i] == a[k])
+            {
+                cnt++;
+            }
         }
     }
-    cout<<count<<endl;
+    cout << cnt << '\n';
     return 0;
 }
