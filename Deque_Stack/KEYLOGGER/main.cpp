@@ -5,7 +5,7 @@ using namespace std;
 
 string s;
 
-int main()
+signed main()
 {
     ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
     cin >> s;
@@ -49,6 +49,6 @@ int main()
     string ans;
     for(char c: s1) ans.push_back(c);
     for(char c: s2) ans.push_back(c);
-    cout << ans << endl;
+    cout << ans;
     return 0;
 }
