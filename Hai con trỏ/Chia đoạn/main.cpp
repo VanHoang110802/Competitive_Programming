@@ -23,7 +23,7 @@ signed main()
     {
         s /= 3;
         int t = 0;
-        for(int i = n; i >= 0; --i)
+        for(int i = n; i > 0; --i)
         {
             t += a[i];
             if(t == s)
