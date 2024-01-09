@@ -11,8 +11,7 @@ B 6 1
 using namespace std;
 
 const int MAXN = 1e5 + 7;
-const int MAXB = 2 * (1e5 + 7);
-int id[MAXN], a[MAXN], b[MAXB], c[MAXN], L[MAXN], R[MAXN];
+int id[MAXN], a[MAXN], b[MAXN], c[MAXN], L[MAXN], R[MAXN];
 int n, m, d = 0, Lmin;
 
 void Xoa(int x)
