@@ -3,8 +3,8 @@ Mình thiệt thòi hơn người ta, thì mình phải cố gắng chăm gấp 
 
 # MẪU (TEMPLATE)
 
-
-```#include <iostream>
+```
+#include <iostream>
 using namespace std;
 
 int test;
