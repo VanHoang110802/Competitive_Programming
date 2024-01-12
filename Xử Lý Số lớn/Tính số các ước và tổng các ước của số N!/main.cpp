@@ -139,7 +139,7 @@ void calculate1()
             tmp = add(tmp, "1");
             res1 = multiply(res1, tmp);
         }
-    cout << res1 << '\n';
+    cout << res1 << ' ';
 }
 
 void calculate3()
@@ -160,7 +160,7 @@ void calculate3()
             tmp0 = add(tmp0, "1");
             res3 = multiply(res3, tmp0);
         }
-    cout << res3 << '\n';
+    cout << res3 << ' ';
 }
 
 signed main()
