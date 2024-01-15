@@ -1,4 +1,4 @@
-// Hay code lai bai tim day con co tong >= S. Neu khong tim day con thi in ra -1
+// Hãy code lại bài: Tìm độ dài nhỏ nhất của dãy con chứa các phần tử liên tiếp dãy mà tổng của các phần tử trong dãy đó phải >= 1 số S cho trước.
 
 /*
 Nhận xét: Khả năng kết quả sẽ nằm trong đoạn từ [1..n]
