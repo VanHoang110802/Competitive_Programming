@@ -32,9 +32,10 @@ signed main()
 }
 ```
 
-# =============
-
+#
+```
 /*
 Cerr là luồng lỗi chuẩn được sử dụng để xuất lỗi. Nó cũng là biến thể của lớp ostream. Vì cerr không được đệm nên nó được sử dụng khi cần hiển thị thông báo lỗi ngay lập tức.
 Ngoài ra nó không có bộ đệm để lưu thông báo lỗi và hiển thị sau.
 */
+```
