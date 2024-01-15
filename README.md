@@ -1,6 +1,7 @@
 # ABCXYZ
+```
 Mình thiệt thòi hơn người ta, thì mình phải cố gắng chăm gấp đôi hơn người ta...
-
+```
 # MẪU (TEMPLATE)
 
 ```
@@ -32,7 +33,6 @@ signed main()
     return 0;
 }
 ```
-
 #
 ```
 Cerr là luồng lỗi chuẩn được sử dụng để xuất lỗi. Nó cũng là biến thể của lớp ostream.
