@@ -1,3 +1,8 @@
+/*
+5 3
+2 3 4 10 40
+
+*/
 #include <iostream>
 #include <vector>
 #include <string>
