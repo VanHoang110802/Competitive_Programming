@@ -25,3 +25,10 @@ Trường hợp đệ quy là cách thức hiện diện của lệnh gọi đ�
 Để hiểu cách đệ quy hoạt động, chúng ta sẽ lại tham khảo ví dụ về tính tổng N số tự nhiên bắt đầu từ 0 và theo dõi dòng chảy của chương trình.
 
 ![image](https://github.com/VanHoang110802/ABCXYZ/assets/108053955/ad629398-122f-4ea5-8fa3-570d0b5a4091)
+
+#
+![1](https://github.com/VanHoang110802/ABCXYZ/assets/108053955/02a8e802-1678-447b-9838-b408102df394)
+
+![2](https://github.com/VanHoang110802/ABCXYZ/assets/108053955/7eae52b6-89c3-4305-a1e8-c62eb1c7d0fe)
+
+![3](https://github.com/VanHoang110802/ABCXYZ/assets/108053955/1fe02f86-bb24-4087-a3bb-8d27150ea277)
