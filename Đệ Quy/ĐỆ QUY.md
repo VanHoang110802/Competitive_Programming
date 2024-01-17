@@ -24,7 +24,7 @@ Trường hợp đệ quy là cách thức hiện diện của lệnh gọi đ�
 # Hoạt động đệ quy trong C++
 Để hiểu cách đệ quy hoạt động, chúng ta sẽ lại tham khảo ví dụ về tính tổng N số tự nhiên bắt đầu từ 0 và theo dõi dòng chảy của chương trình.
 
-1. Trong hàm nSum(), Trường hợp đệ quy là:
+1. Trong hàm TinhTongN(), Trường hợp đệ quy là:
 ```
 int temp = n + TinhTongN(n - 1);
 ```
