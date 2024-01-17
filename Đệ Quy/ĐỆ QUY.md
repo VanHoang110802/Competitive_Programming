@@ -32,3 +32,13 @@ Trường hợp đệ quy là cách thức hiện diện của lệnh gọi đ�
 ![2](https://github.com/VanHoang110802/ABCXYZ/assets/108053955/7eae52b6-89c3-4305-a1e8-c62eb1c7d0fe)
 
 ![3](https://github.com/VanHoang110802/ABCXYZ/assets/108053955/1fe02f86-bb24-4087-a3bb-8d27150ea277)
+
+# Ứng dụng của đệ quy
+
+![1](https://github.com/VanHoang110802/ABCXYZ/assets/108053955/383f5c9b-dcd6-4916-8fad-dca4de12b8e1)
+
+
+# Hạn chế của đệ quy
+
+![2](https://github.com/VanHoang110802/ABCXYZ/assets/108053955/46bf4e65-880b-4039-a44c-b775f7f4d573)
+
