@@ -9,6 +9,7 @@ Mình thiệt thòi hơn người ta, thì mình phải cố gắng chăm gấp 
 #include <vector>
 #include <string>
 #include <ctime>
+#include <cmath>
 #include <algorithm>
 using namespace std;
 
