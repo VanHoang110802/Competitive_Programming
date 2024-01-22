@@ -1,7 +1,3 @@
-# Verdict:
-![ac1](https://github.com/VanHoang110802/ABCXYZ/assets/108053955/ee1a8897-6422-4b85-9606-f3bffe86af08)
-
-
 # Test 1:
 input:
 ```
