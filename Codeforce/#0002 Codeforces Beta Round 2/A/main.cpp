@@ -6,6 +6,14 @@
 using namespace std;
 
 int test;
+struct Points
+{
+    int n;
+    string name;
+    int score;
+    int MAX;
+};
+map<string, int> MAP, MAP2;
 
 void CinTest(int vanhoang)
 {
@@ -18,27 +26,27 @@ signed main()
     ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0); CinTest(0);
     while(test--)
     {
-        int n;
-        string a[1000];
-        int b[1000];
-        map<string, int>s, t;
-        cin >> n;
-        for (int i = 0; i < n; i++)
+        Points P; cin >> P.n;
+        vector<Points> a(P.n);
+        for(int i = 0; i < P.n; ++i)
         {
-            cin >> a[i] >> b[i];
-            s[a[i]] += b[i];
+            cin >> a[i].name >> a[i].score;
+            MAP[a[i].name] += a[i].score;
         }
-        int MAX = 0;
-        for (int i = 0; i < n; i++)
+        P.MAX = 0;
+        for(int i = 0; i < P.n; ++i)
         {
-            if (s[a[i]] > MAX) MAX = s[a[i]];
-        }
-        for (int i = 0; i < n; i++)
-        {
-            t[a[i]] += b[i];
-            if (t[a[i]] >= MAX && s[a[i]] == MAX)
+            if(MAP[a[i].name] > P.MAX)
             {
-                cout << a[i];
+                P.MAX = MAP[a[i].name];
+            }
+        }
+        for(int i = 0; i < P.n; ++i)
+        {
+            MAP2[a[i].name] += a[i].score;
+            if(MAP2[a[i].name] >= P.MAX && MAP[a[i].name] >= P.MAX)
+            {
+                cout << a[i].name << '\n';
                 break;
             }
         }
