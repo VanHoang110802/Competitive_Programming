@@ -9,10 +9,11 @@ Người ta cho mình 1 chiếc bánh, một ma trận n x m, nghĩa là, bây g
 - (3) nếu mà cột hoặc dòng đó đã được đếm rồi thì sẽ không được đếm thêm nữa (tức là
 chỉ được tính mỗi ô đếm 1 lần mà thôi)
 
-
+```
 S... 
 .... 
 ..S.
+```
 
 - dòng 1 có S (là quả dâu) nên dòng 1 sẽ không đếm
 - dòng 2 không có S, đếm được = 4 (*)
@@ -23,6 +24,8 @@ S...
 - cột 4 không có S nên đếm được 2, vì ở cột 4 dòng 2 đã được đếm ở (*) rồi 
 --> tổng đếm được là 8
 
+```
 S101 
 1111 
 01S1
+```
