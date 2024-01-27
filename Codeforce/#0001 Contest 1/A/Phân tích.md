@@ -10,5 +10,4 @@ Nghĩa là mình chỉ cần cái vòng lặp nhập MAXN phần tử, rồi sau
 phần tử như trên là ok. Vì người ta cho mặc định là 2x2 rồi, MAXN cùng lắm chỉ có
 4 phần tử mà thôi.
 
-Nếu (1) (2) đều thỏa mãn thì -> YES
-Còn không thì -> NO
+Nếu (1) (2) đều thỏa mãn thì -> YES. Còn không thì -> NO
