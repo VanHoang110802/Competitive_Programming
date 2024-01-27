@@ -1,11 +1,5 @@
-// sorting and binary search
-
 #include <iostream>
-#include <vector>
-#include <string>
-#include <cmath>
-#include <algorithm>
-#include <iomanip>
+#include <set>
 using namespace std;
 
 int test;
@@ -21,30 +15,33 @@ signed main()
     ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0); CinTest(1 - 1);
     while(test--)
     {
-        int n, k;
-        cin >> n >> k;
-        vector<int> a(n), b;
-        for(int i = 0; i < n; ++i)
-        {
-            cin >> a[i];
-        }
-        int cnt = 1, x = a[0];
-        b.push_back(0);
-        for(int i = 1; i < n; ++i)
-        {
-            if(a[i] != x)
-            {
-                cnt++;
-                b.push_back(i);
-            }
-        }
-        if(cnt == k)
-        {
-            cout << "YES\n";
-            for(int i = 0; i < b.size(); ++i) cout << b[i] + 1 << ' ';
-            cout << '\n';
-        }
-        else cout << "NO\n";
+       int n, m;
+       cin >> m >> n;
+       set<int> dong, cot;
+       for(int i = 0; i < m; ++i)
+       {
+           for(int j = 0; j < n; ++j)
+           {
+               char ch; cin >> ch;
+               if(ch == 'S')
+               {
+                   dong.insert(i);
+                   cot.insert(j);
+               }
+           }
+       }
+       int ans = 0;
+       for(int i = 0; i < m; ++i)
+       {
+           for(int j = 0; j < n; ++j)
+           {
+               if(dong.find(i) == dong.end() || cot.find(j) == cot.end())
+               {
+                   ans++;
+               }
+           }
+       }
+       cout << ans << '\n';
     }
     return 0;
 }
