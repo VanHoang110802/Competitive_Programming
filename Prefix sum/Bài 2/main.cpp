@@ -12,11 +12,6 @@ void CinTest(int vanhoang)
     else test = 1;
 }
 
-int Minus(int x, int y)
-{
-    return x - y;
-}
-
 int LCM(int x, int y)
 {
     return (x * y) / __gcd(x, y);
