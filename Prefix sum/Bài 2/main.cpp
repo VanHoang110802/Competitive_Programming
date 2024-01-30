@@ -26,7 +26,8 @@ signed main()
         while(q--)
         {
             int l, r; cin >> l >> r;
-            cout << (r / LCM(a, b)) - ((l - 1)/LCM(a, b)) << '\n';
+            int BC = LCM(a, b);
+            cout << (r / BC) - ((l - 1)/BC) << '\n';
         }
     }
     cerr << "\nTime elapsed: " << 1000.0 * clock() / CLOCKS_PER_SEC << " ms.\n";
