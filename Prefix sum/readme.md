@@ -42,7 +42,7 @@ signed main()
             int a, b; cin >> a >> b;
             cout << prefix[b] - prefix[a - 1] << '\n';
         }
-    }
+    } cerr << "\nTime elapsed: " << 1000.0 * clock() / CLOCKS_PER_SEC << " ms.\n";
     return 0;
 }
 ```
@@ -116,7 +116,7 @@ signed main()
         for(int i = 1; i <= n; ++i)
             a[i] += prefix[i];
         for(int i = 1; i <= n; ++i) cout << a[i] << ' ';
-    }
+    } cerr << "\nTime elapsed: " << 1000.0 * clock() / CLOCKS_PER_SEC << " ms.\n";
     return 0;
 }
 ```
