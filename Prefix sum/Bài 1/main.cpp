@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+#define int long long
 int test;
 
 void CinTest(int vanhoang)
