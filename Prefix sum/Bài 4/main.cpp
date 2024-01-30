@@ -35,8 +35,6 @@ signed main()
             temp_prefix[i] = temp_prefix[i - 1] + tg[i];
             prefix[i] = prefix[i - 1] + temp_prefix[i];
         }
-        for(int i = 1; i <= n; ++i) cout << temp_prefix[i] << ' ';
-        cout << '\n';
         while(p--)
         {
             int a, b; cin >> a >> b;
