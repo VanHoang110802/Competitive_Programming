@@ -1,9 +1,5 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <cmath>
-#include <algorithm>
-#include <iomanip>
+#include <ctime>
 using namespace std;
 
 #define int long long
@@ -23,17 +19,18 @@ signed main()
     while(test--)
     {
         int n, q; cin >> n;
-        for(int i = 1; i <= n; ++i) cin >> a[i];
-        cin >> q;
         for(int i = 1; i <= n; ++i)
         {
+            cin >> a[i];
             prefix[i] = prefix[i - 1] + a[i];
         }
+        cin >> q;
         while(q--)
         {
             int l, r; cin >> l >> r;
             cout << prefix[r] - prefix[l - 1] << '\n';
         }
     }
+    cerr << "\nTime elapsed: " << 1000.0 * clock() / CLOCKS_PER_SEC << " ms.\n";
     return 0;
 }
