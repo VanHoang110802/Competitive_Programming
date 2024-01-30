@@ -6,6 +6,7 @@
 #include <iomanip>
 using namespace std;
 
+#define int long long
 const int MAXN = 1e6 + 7;
 int test;
 int prefix[MAXN], temp_prefix[MAXN], tg[MAXN];
