@@ -4,13 +4,12 @@ using namespace std;
 
 #define int long long
 const int MAXN = 1e6 + 7;
-int a[MAXN], cnt[MAXN]
+int a[MAXN], cnt[MAXN];
 
 signed main()
 {
   ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
   int n; cin >> n;
-  
   for(int i = 1; i <= n; ++i)
   {
     cin >> a[i];
