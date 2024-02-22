@@ -24,7 +24,7 @@ signed main()
   cout << d << '\n';
   for(int i = 0; i <= 2 * MAXN; ++i)
   {
-    if(cnt[i] > 0) cout << i - MAXN << ' ' << c[i] << '\n';
+    if(cnt[i] > 0) cout << i - MAXN << ' ' << cnt[i] << '\n';
   }
   return 0;
 }
