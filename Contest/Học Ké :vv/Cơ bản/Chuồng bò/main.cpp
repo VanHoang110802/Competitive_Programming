@@ -4,7 +4,7 @@ using namespace std;
 
 #define int long long
 const int MAXN = 1e6 + 7;
-int a[MAXN], cnt[MAXN];
+int a[MAXN], cnt[2 * MAXN];
 
 signed main()
 {
