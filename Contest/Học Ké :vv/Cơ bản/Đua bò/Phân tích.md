@@ -22,3 +22,6 @@ Tuy nhiên, sẽ có trường hợp trùng nhau, ta sẽ loại bỏ 1 nửa c�
 
 ![image](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/6d57abd7-254d-4cff-b29c-c918863dd0cb)
 
+```
+Thực chất đây chính là toán tổ hợp.
+```
