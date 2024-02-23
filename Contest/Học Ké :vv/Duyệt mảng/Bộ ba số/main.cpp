@@ -2,6 +2,7 @@
 #include <algorithm>
 using namespace std;
 
+#define int long long
 const int MAXN = 1e6 + 7;
 int a[MAXN], prefix[MAXN], suff[MAXN];
 
