@@ -28,3 +28,48 @@ Smax = max(Smax, S)
 ```
 Tuy nhiên, thuật toán với ý tưởng trên có độ phức tạp là O(n^2), vẫn chưa được tối ưu để AC được bài này.
 ```
+
+```
+Thì để AC trọn vẹn bài này, ta sẽ chuẩn bị 2 mảng. Tạm gọi 2 mảng là mảng Max_1, Max_2. Mảng này sẽ lưu lại
+những vị trí lớn nhất có trong mảng.
+```
+```
+Max_1[i] = max(a1, a2,..., ai) = max(max(a1, a2,..., ai-1), ai)
+```
+![image](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/76bb08f2-afff-4c4c-b6fd-9706b991c3d4)
+
+![image](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/15cb0dca-6cb3-40b4-bf68-53e7d5b0992f)
+
+![image](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/027c1324-b73a-4563-90a3-49d9f9abc691)
+
+![image](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/273cfc4e-dc7c-4a35-a36a-7f46ee88d20b)
+
+![image](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/58a41920-5d23-4f8a-9fc1-a789b700612c)
+
+![image](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/2d23687a-02da-4b3f-86b7-a130b15d1d1c)
+
+![image](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/8b1ec7f9-063e-4c38-96d3-559e5c14d5c5)
+
+```
+Max_2 là ngược lại
+Max_2[i] = max(an,..., ai) = max(max(an, an-1,..., ai+1), ai)
+```
+![image](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/b86e0c84-f76b-4ed9-9bb8-e1194435df10)
+
+![image](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/a4190d24-b0f7-4f74-826a-3eaf2eb05541)
+
+![image](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/f5d8f310-2d7c-4a11-9e46-d15aea364037)
+
+![image](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/e7fc6f92-08f4-4300-9f1f-f4aeea1f79ea)
+
+![image](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/e1752f29-9f2d-4303-8d7d-dc1f5b77637e)
+
+
+
+
+
+
+
+
+
+
