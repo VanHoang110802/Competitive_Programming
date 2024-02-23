@@ -19,7 +19,7 @@ Ta có thể thấy ngay trên hình vẽ, khi mà ta cắt các tấm ván, nó
 Hai vị trí được đánh mũi tên đó, nó có chiều cao thấp hơn so với chiều cao của h[i], và gần với h[i] nhất
 (Tính từ h[i] sang bên trái, sang bên phải)
 Gọi hai vị trí đó (cột được đánh bôi đen) lần lượt là l, r. Vậy tức là ta cần phải tìm vị trí l gần bên trái của h[i]
-và h[l] < h[i], vị trí r gần bên phải của h[i] và h[r] > h[i]
+và h[l] < h[i], vị trí r gần bên phải của h[i] và h[r] < h[i]
 ```
 ![image](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/8380e842-a9f8-4b30-9682-faa237e87014)
 
