@@ -9,7 +9,7 @@ int a[MAXN], prefix[MAXN], suff[MAXN];
 signed main()
 {
     ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
-    int n, ans = 0; cin >> n;
+    int n, ans = -1e18; cin >> n;
     for(int i = 1; i <= n; ++i)
     {
         cin >> a[i];
