@@ -1,8 +1,10 @@
 # Đề bài
+![image](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/ac667527-2279-4fe5-9850-eca0b2955ea9)
 
 # Phân tích
 
 ```
+9
 7 1 4 1 1 1 4 7 7
 ```
 
@@ -25,3 +27,6 @@ Tuy nhiên, sẽ có trường hợp trùng nhau, ta sẽ loại bỏ 1 nửa c�
 ```
 Thực chất đây chính là toán tổ hợp.
 ```
+
+![image](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/bbe337ef-14e4-43d9-bbf8-7b43d667e298)
+
