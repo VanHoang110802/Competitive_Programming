@@ -63,8 +63,11 @@ Max_2[i] = max(an,..., ai) = max(max(an, an-1,..., ai+1), ai)
 ![image](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/e7fc6f92-08f4-4300-9f1f-f4aeea1f79ea)
 
 ![image](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/e1752f29-9f2d-4303-8d7d-dc1f5b77637e)
+```
+Lúc này, ta sẽ có được như sau:
+```
 
-
+![image](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/3912f8b0-e81c-4ef1-909f-813925b67216)
 
 
 
