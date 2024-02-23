@@ -18,7 +18,7 @@ Theo đề bài thì hai phần tử liền nhau thì khoảng cách giữa 2 ph
 Với mỗi phần tử ở dãy b, ta sẽ duyệt tất cả các giá trị của phần tử từ 1 -> 1000
 Khi mà tính được dãy b rồi thì đem so sánh với mảng ban đầu:
 + Nếu b[i] = a[i] thì không thay đổi phần tử a[i]
-+ Nếu b[i] != a[i] thì thay đổi a[i] đi 1 đơn vị (b[i] - a[i] đơn vị)
++ Nếu b[i] != a[i] thì thay đổi a[i] (b[i] - a[i])
 
 Lấy ví dụ của đề:
 1 2 1 5
