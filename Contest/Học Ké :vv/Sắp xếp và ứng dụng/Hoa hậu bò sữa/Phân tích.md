@@ -4,6 +4,6 @@
 
 # Phân tích
 ```
-Dùng 3 mảng prefix sum. Mỗi lần nhập 1 phần tử thì tăng mảng đếm của phần tử đó lên 1, rồi đem cộng vô mảng prefix, rồi mỗi truy vấn
-in ra từng giá trị của các mảng prefix là xong.
+Dùng 3 mảng prefix sum. Mỗi lần nhập 1 phần tử thì tăng mảng đếm của phần tử đó lên 1, rồi đem cộng vô mảng prefix
+rồi mỗi truy vấn in ra từng giá trị của các mảng prefix là xong.
 ```
