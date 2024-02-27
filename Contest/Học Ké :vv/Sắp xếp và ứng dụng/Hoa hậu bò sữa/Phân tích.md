@@ -4,8 +4,6 @@
 
 # Phân tích
 ```
-Bài này ta sẽ có 2 cách giải:
-C1: Mình sẽ sort mảng theo cách là: lẻ đứng trước, chẵn đứng sau và theo thứ tự tăng dần. Sau đó, đặt 3 biến đếm, vàng,
-bạc, đồng. Duyệt lại mảng từ l -> r, nếu gặp điều kiện thỏa nào đó tăng biến đếm từng cái lên rồi in ra. (N + N.log(N))
-C2: Dùng 3 mảng prefix sum.
+Dùng prefix sum. Mỗi lần nhập 1 phần tử thì tăng mảng đếm của phần tử đó lên 1, rồi đem cộng vô mảng prefix, rồi mỗi truy vấn
+in ra từng giá trị của các mảng prefix là xong.
 ```
