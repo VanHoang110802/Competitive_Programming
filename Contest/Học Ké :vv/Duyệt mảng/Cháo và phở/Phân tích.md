@@ -26,3 +26,7 @@ tiếp theo
 ![image](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/cf845a6c-4871-48f2-b26f-90f7f89cc151)
 
 ![image](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/150bbe33-bb21-4743-b89e-abef4c721edb)
+
+```
+Tuy nhiên, bài này có thể áp dụng được cả priority_queue vẫn có thể AC được. Có thể xem mẫu thử ở phần main2.
+```
