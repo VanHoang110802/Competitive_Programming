@@ -4,5 +4,9 @@
 
 # Phân tích
 ```
+Chọn cửa hàng bán rẻ nhất để mua trước
+Nếu mà mua hết rồi mà vẫn chưa đủ số lượng thì sang cửa hàng tiếp theo
+Ta cứ cửa hàng nào rẻ thì mua trước, đắt thì mua sau
+Ta sẽ sắp xếp tăng dần theo giá cửa hàng. Nhưng khi mà sắp xếp thì nhớ phải lưu lại vị trí
 
 ```
