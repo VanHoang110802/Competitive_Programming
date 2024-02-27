@@ -28,5 +28,6 @@ tiếp theo
 ![image](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/150bbe33-bb21-4743-b89e-abef4c721edb)
 
 ```
-Tuy nhiên, bài này có thể áp dụng được cả priority_queue vẫn có thể AC được. Có thể xem mẫu thử ở phần main2.
+Tuy nhiên, bài này thực chất giới hạn là 10^5, nên áp dụng cách vòng lặp duyệt như trên sẽ không được tối ưu.
+Muốn tối ưu được thì phải dùng priority_queue mới có thể AC. Có thể xem mẫu thử ở phần main2.
 ```
