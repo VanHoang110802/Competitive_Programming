@@ -10,11 +10,11 @@ int a[MAXN], b[MAXN], c[MAXN];
 
 bool cmp(int a, int b)
 {
-	int ans1 = a % 2, ans2 = b % 2;
-	if(ans1 == 0 && ans2 == 1) return false;
-	else if(ans1 == 1 && ans2 == 0) return true;
+    int ans1 = a % 2, ans2 = b % 2;
+    if(ans1 == 0 && ans2 == 1) return false;
+    else if(ans1 == 1 && ans2 == 0) return true;
     if(ans1 == 0 && ans2 == 0) return (a > b);
-	else if(ans1 == 1 && ans2 == 1) return (a < b);
+    else if(ans1 == 1 && ans2 == 1) return (a < b);
 }
 
 signed main()
@@ -25,7 +25,8 @@ signed main()
     sort(a + 1, a + n + 1, cmp);
     while(m--)
     {
-        int l, r; cin >> l >> r;
+        int l, r;
+        cin >> l >> r;
         int vang = 0, bac = 0, dong = 0;
         for(int i = l; i <= r; ++i)
         {
