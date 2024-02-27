@@ -19,7 +19,7 @@ signed main()
         cin >> f[i];
         if(f[i] == 1) a[i]++;
         else if(f[i] == 2) b[i]++;
-        else if(f[i] == 3) c[i]++;
+        else(f[i] == 3) c[i]++;
 
         a[i] = a[i - 1] + a[i];
         b[i] = b[i - 1] + b[i];
