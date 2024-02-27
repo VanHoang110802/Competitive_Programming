@@ -1,0 +1,4 @@
+```
+Hàm bool cmp(): Khi mà x > y, tức là phần tử bên trái lớn hơn phần tử bên phải, thì đây chính là dấu hiệu
+của việc sắp giảm dần của mảng
+```
