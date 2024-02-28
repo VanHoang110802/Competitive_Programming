@@ -1,36 +1,52 @@
-#include <iostream>
-#include <cmath>
-#include <algorithm>
+#include <bits/stdc++.h>
 using namespace std;
 
-#define int long long
-const int MAXN = 1e2 + 7;
-int a[MAXN][MAXN];
+int a[101][101], visited[101][101], dp[101][101], n, m, tmp[101][101], ans;
+int dx[3] = {-1, 0, 1};
+int dy[3] = {1, 1, 1};
 
-signed main()
+void inp()
 {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
-    cout.tie(0);
-    int n, m, x = -1e9;
-    cin >> n >> m;
-    for(int i = 1; i <= n; ++i) for(int j = 1; j <= m; ++j) cin >> a[i][j];
-    for (int i = 0; i <= n; i++)
+    cin >> m >> n;
+    for (int i = 1; i <= m; i++)
+        for (int j = 1; j <= n; j++)
+            cin >> a[i][j];
+    for (int i = 1; i <= m; i++)
     {
-        a[0][i] = -1e9;
-        a[m + 1][i] = -1e9;
+        visited[i][n] = true;
+        dp[i][n] = a[i][n];
     }
-    for(int j = 1; j <= m; ++j)
+}
+
+int dfs(int i, int j)
+{
+    tmp[i][j] = INT_MIN;
+    visited[i][j] = true;
+    for (int k = 0; k <= 2; k++)
     {
-        for(int i = 1; i <= n; ++i)
+        int i1 = i + dx[k];
+        int j1 = j + dy[k];
+        if ((i1 >= 1 && i1 <= m) && (j1 >= 1 && j1 <= n))
         {
-            a[i][j] = a[i][j] + max(a[i - 1][j - 1], max(a[i][j - 1], a[i + 1][j - 1]));
+            if (visited[i1][j1])
+                tmp[i][j] = max(tmp[i][j], dp[i1][j1]);
+            else
+                tmp[i][j] = max(tmp[i][j], dfs(i1, j1));
         }
     }
-    for(int i = 1; i <= n; ++i)
-    {
-        x = max(x, a[i][m]);
-    }
-    cout << x << '\n';
+    dp[i][j] = a[i][j] + tmp[i][j];
+    return dp[i][j];
+}
+
+int main()
+{
+    ios_base::sync_with_stdio(0);
+    cin.tie(0); cout.tie(0);
+    inp();
+    for (int i = 1; i <= m; i++)
+        dfs(i, 1);
+    for (int i = 1; i <= m; i++)
+        ans = max(ans, dp[i][1]);
+    cout << ans << '\n';
     return 0;
 }
