@@ -1,4 +1,6 @@
 # Đề bài
+![demuocnt](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/37554ee0-1dd9-4eaf-a44b-cce7338af283)
+![demuocnt2](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/a13feddb-fd7e-429b-822e-e3dc34b8c8c3)
 
 # Phân tích
 ![image](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/acd63e02-f232-4739-9efc-a40a4c6676b2)
