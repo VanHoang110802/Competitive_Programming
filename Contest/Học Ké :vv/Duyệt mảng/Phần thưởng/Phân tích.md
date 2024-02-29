@@ -4,3 +4,7 @@
 ![bonus3](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/f50a1d16-cad3-4c87-b651-37dba2236534)
 
 # Phân tích
+![image](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/0541088a-9afd-4b55-976e-56f7c97a20b7)
+```
+Người ta muốn mình tìm hình chữ nhật con có tổng lớn nhất
+```
