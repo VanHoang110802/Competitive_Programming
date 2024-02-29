@@ -55,8 +55,14 @@ ngược lại i là số chính phương thì đi đếm các ước của i (d
 Kiểm tra nếu d là nguyên tố thì c[i] = 1
 ngược lại thì c[i] = 0, rồi xây dựng hàm đếm ước
 ```
+![image](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/3c7f8110-0e4b-4a17-8843-e3459246ebd1)
 
+```
+Lúc này, đi phân tích n thành tích thừa số nguyên tố
+```
+![image](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/1f74ba53-b41e-41b2-a393-91fa3cab2cb0)
 
+![image](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/0fce460e-e5ab-4e1a-a851-b56c46051ff5)
 
 
 
