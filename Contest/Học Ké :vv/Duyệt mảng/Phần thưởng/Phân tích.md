@@ -47,3 +47,18 @@ Vậy thì lúc này, ta có được bài toán con là tìm tổng đoạn con
 Dùng kĩ thuật trượt sổ trượt
 ```
 ![image](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/e1fa529a-74b4-4575-96f8-2e99307f2e29)
+
+![image](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/0b578f95-8886-45ba-a4b0-bff9f178c07f)
+
+![image](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/ae1d6a44-32ec-448f-a7c1-8481926cb75d)
+
+![image](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/72a90e14-c052-4b6f-b944-3b5b9442a9c7)
+
+![image](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/1ea84e31-7810-4baf-b980-1ca94f36dbe8)
+
+![image](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/af3fb5ad-cdec-432f-ba66-22bf8f3a7e05)
+
+![image](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/91000a00-78d6-4434-868e-55922c92be49)
+
+
+
