@@ -40,6 +40,7 @@ void get_p(int x)
 
 signed main()
 {
+    ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
     cin >> n;
     h.resize(n + 2);
     ans = -MXLL;
