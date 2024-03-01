@@ -1,13 +1,14 @@
 #include <iostream>
 #include <algorithm>
+#include <vector>
 #include <set>
+#include <map>
 using namespace std;
 
 #define int long long
 const int MAXN = 1e6 + 7;
-int a[MAXN], cnt_trung[MAXN];
-int n, idx = 0, MAX = -1e9;
-bool check_trung = false;
+int a[MAXN];
+int n, MAX = -1e18;
 set<int> SET;
 
 void Nhap()
@@ -17,28 +18,21 @@ void Nhap()
     {
         cin >> a[i];
         SET.insert(a[i]);
-        cnt_trung[a[i]]++;
-        if(cnt_trung[a[i]] == n) check_trung = true;
-        else MAX = max(MAX, a[i]);
+        if(a[i] > MAX) MAX = a[i];
     }
 }
 
 void XuLy()
 {
-    if(n < 2)
+    int x = SET.size();
+    if(x == 1 && n == 1) cout << -1 << ' ' << -1 << '\n';
+    else if(x == 1 && n > 1)
     {
-        cout << -1 << ' ' << -1 << '\n';
+        cout << -1 << ' ' << MAX << '\n';
     }
     else
     {
-        if(check_trung)
-        {
-            cout << -1 << ' ' << a[n - 1] << '\n';
-        }
-        else
-        {
-            cout << *SET.upper_bound(MAX) << ' ' << *SET.lower_bound(MAX) << '\n';
-        }
+        cout << *SET.upper_bound(MAX) << ' ' << *SET.lower_bound(MAX) << '\n';
     }
 }
 
