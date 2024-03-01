@@ -4,9 +4,7 @@ using namespace std;
 
 signed main()
 {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
-    cout.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
     int n, m, k;
     cin >> n >> m >> k;
     k--;
@@ -55,7 +53,7 @@ signed main()
             {
                 res = r;
             }
-            if(((a[l]==b && a[r]==b) || (a[l]!=b && a[r]!=b))&&k-l>r-(k+1))
+            if(((a[l] == b && a[r] == b) || (a[l] != b && a[r] != b)) && k - l > r - (k + 1))
             {
                 res = r;
             }
