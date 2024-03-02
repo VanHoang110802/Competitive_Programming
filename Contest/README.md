@@ -68,4 +68,7 @@ Mỗi nội dung gồm có 2 phần:
 
 [Contest 29: Đề thi minh họa HSG THANH HÓA]
 
+[Contest 30: Đề thi HSG THANH HÓA 2023]
+
+[Contest 31: Đề thi khảo sát THANH HÓA]
 ```
