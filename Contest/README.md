@@ -12,5 +12,5 @@ Mỗi nội dung gồm có 2 phần:
 ```
 ----------------------
 ```
-Contest 1: Đề thi HSG THANH HÓA 2020
+[Contest 1: Đề thi HSG THANH HÓA 2020]
 ```
