@@ -73,4 +73,6 @@ Mỗi nội dung gồm có 2 phần:
 [Contest 31: Đề thi HSG NAM TỪ LIÊM]
 
 [Contest 32: Đề thi khảo sát THANH HÓA 2022]
+
+[Contest 33: Đề thi HSG HẢI DƯƠNG 2022]
 ```
