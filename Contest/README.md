@@ -70,5 +70,7 @@ Mỗi nội dung gồm có 2 phần:
 
 [Contest 30: Đề thi HSG THANH HÓA 2023]
 
-[Contest 31: Đề thi khảo sát THANH HÓA]
+[Contest 31: Đề thi HSG NAM TỪ LIÊM]
+
+[Contest 32: Đề thi khảo sát THANH HÓA 2022]
 ```
