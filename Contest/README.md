@@ -55,4 +55,13 @@ Mỗi nội dung gồm có 2 phần:
 [Contest 22: Contest về mảng nâng cao 1 chút]
 
 [Contest 23: Đề thi HSG HÀ NỘI 2014]
+
+[Contest 24: Đề thi HSG HÀ NỘI 2015]
+
+[Contest 25: Đề thi HSG HÀ NỘI 2016]
+
+[Contest 26: Đề thi HSG HÀ NỘI 2017]
+
+[Contest 27: Đề thi HSG HÀ NỘI 2018]
+
 ```
