@@ -40,12 +40,19 @@ Mỗi nội dung gồm có 2 phần:
 
 [Contest 14: Contest không rõ nguồn(6)]
 
-[Contest 15: Vẫn là về trượt cửa sổ, đoạn con liên tiếp, đoạn left - right, xoay vòng, tổng bảng con...]
-[Contest 16: Vẫn là về trượt cửa sổ, đoạn con liên tiếp, đoạn left - right, xoay vòng, tổng bảng con...]
-[Contest 17: Vẫn là về trượt cửa sổ, đoạn con liên tiếp, đoạn left - right, xoay vòng, tổng bảng con...]
-[Contest 18: Vẫn là về trượt cửa sổ, đoạn con liên tiếp, đoạn left - right, xoay vòng, tổng bảng con...]
-[Contest 19: Vẫn là về trượt cửa sổ, đoạn con liên tiếp, đoạn left - right, xoay vòng, tổng bảng con...]
-[Contest 20: Vẫn là về trượt cửa sổ, đoạn con liên tiếp, đoạn left - right, xoay vòng, tổng bảng con...]
-[Contest 21: Vẫn là về trượt cửa sổ, đoạn con liên tiếp, đoạn left - right, xoay vòng, tổng bảng con...]
-[Contest 22: Vẫn là về trượt cửa sổ, đoạn con liên tiếp, đoạn left - right, xoay vòng, tổng bảng con...]
+[Contest 15: Contest về số lớn]
+
+[Contest 16: Contest về số học(toán)]
+
+[Contest 17: Contest về quy hoạch động]
+
+[Contest 18: Contest về DFS, BFS]
+
+[Contest 19: Contest về hai con trỏ]
+
+[Contest 20: Contest về stack, queue, deque, priority_queue]
+
+[Contest 21: Contest về mảng cộng dồn (prefix sum), mảng hiệu (difference array)]
+
+[Contest 22: Contest về mảng nâng cao 1 chút]
 ```
