@@ -64,6 +64,6 @@ Mỗi nội dung gồm có 2 phần:
 
 [Contest 27: Đề thi HSG HÀ NỘI 2018]
 
-[Contest 27: Đề thi Toán-Tin AMSTERDAM]
+[Contest 28: Đề thi Toán-Tin AMSTERDAM]
 
 ```
