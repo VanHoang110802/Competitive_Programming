@@ -53,4 +53,6 @@ Mỗi nội dung gồm có 2 phần:
 [Contest 21: Contest về mảng cộng dồn (prefix sum), mảng hiệu (difference array)]
 
 [Contest 22: Contest về mảng nâng cao 1 chút]
+
+[Contest 23: Đề thi HSG HÀ NỘI 2014]
 ```
