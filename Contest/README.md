@@ -66,6 +66,6 @@ Mỗi nội dung gồm có 2 phần:
 
 [Contest 28: Đề thi HSG AMSTERDAM]
 
-[Contest 28: Đề thi minh họa HSG THANH HÓA]
+[Contest 29: Đề thi minh họa HSG THANH HÓA]
 
 ```
