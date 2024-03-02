@@ -1,1 +1,1 @@
-HSG THANH HÓA 2020.
+Đề thi HSG THANH HÓA 2020.
