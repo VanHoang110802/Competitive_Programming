@@ -28,14 +28,18 @@ Mỗi nội dung gồm có 2 phần:
 
 [Contest 8: Beginner Free Contest 03 - (Kc97ble - Free Contest)]
 
-[Contest 9: Vẫn là về trượt cửa sổ, đoạn con liên tiếp, đoạn left - right, xoay vòng, tổng bảng con...]
+[Contest 9: Contest không rõ nguồn(1)]
 
-[Contest 10: Vẫn là về trượt cửa sổ, đoạn con liên tiếp, đoạn left - right, xoay vòng, tổng bảng con...]
+[Contest 10: Contest không rõ nguồn(2)]
 
-[Contest 11: Vẫn là về trượt cửa sổ, đoạn con liên tiếp, đoạn left - right, xoay vòng, tổng bảng con...]
-[Contest 12: Vẫn là về trượt cửa sổ, đoạn con liên tiếp, đoạn left - right, xoay vòng, tổng bảng con...]
-[Contest 13: Vẫn là về trượt cửa sổ, đoạn con liên tiếp, đoạn left - right, xoay vòng, tổng bảng con...]
-[Contest 14: Vẫn là về trượt cửa sổ, đoạn con liên tiếp, đoạn left - right, xoay vòng, tổng bảng con...]
+[Contest 11: Contest không rõ nguồn(3)]
+
+[Contest 12: Contest không rõ nguồn(4)]
+
+[Contest 13: Contest không rõ nguồn(5)]
+
+[Contest 14: Contest không rõ nguồn(6)]
+
 [Contest 15: Vẫn là về trượt cửa sổ, đoạn con liên tiếp, đoạn left - right, xoay vòng, tổng bảng con...]
 [Contest 16: Vẫn là về trượt cửa sổ, đoạn con liên tiếp, đoạn left - right, xoay vòng, tổng bảng con...]
 [Contest 17: Vẫn là về trượt cửa sổ, đoạn con liên tiếp, đoạn left - right, xoay vòng, tổng bảng con...]
