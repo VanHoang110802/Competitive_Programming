@@ -75,4 +75,6 @@ Mỗi nội dung gồm có 2 phần:
 [Contest 32: Đề thi khảo sát THANH HÓA 2022]
 
 [Contest 33: Đề thi HSG HẢI DƯƠNG 2022]
+
+[Contest 34: Contest làm quen đệ quy]
 ```
