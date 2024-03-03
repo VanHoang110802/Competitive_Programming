@@ -77,4 +77,6 @@ Mỗi nội dung gồm có 2 phần:
 [Contest 33: Đề thi HSG HẢI DƯƠNG 2022]
 
 [Contest 34: Contest làm quen đệ quy]
+
+[Contest 35: Contest đệ quy cơ bản]
 ```
