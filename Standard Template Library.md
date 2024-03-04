@@ -2,12 +2,12 @@
 > C++ cung cấp một giải pháp thay thế mạnh mẽ cho char*. Nó không phải là một kiểu dữ liệu tích hợp, nhưng là một lớp container trong Thư viện mẫu chuẩn. Lớp chuỗi cung cấp các chức năng thao tác chuỗi khác nhau như nối, tìm, thay thế, v.v. Hãy để chúng tôi xem làm thế nào để xây dựng một kiểu chuỗi.
 ```
 string s0;                                       // s0 = ""
-string s1(“Hello”);                               // s1 = "Hello"
+string s1("Hello");                               // s1 = "Hello"
 string s2 (s1);                                  // s2 = "Hello"
 string s3 (s1, 1, 2);                            // s3 = "el"
 string s4 ("Hello World", 5);                     // s4 = "Hello"
-string s5 (5, ‘*’);                              // s5 = "*****"
-string s6 (s1.begin(), s1.begin()+3);              // s6 = "Hel"
+string s5 (5, '*');                              // s5 = "*****"
+string s6 (s1.begin(), s1.begin() + 3);              // s6 = "Hel"
 ```
 Dưới đây là một số hàm thành viên:
 
@@ -55,7 +55,7 @@ Dưới đây là một số hàm thành viên:
 ```
 vector<int> a;                                       // empty vector of ints
 vector<int> b (5, 10);                               // five ints with value 10
-vector<int> c (b.begin(),b.end());                   // iterating through second
+vector<int> c (b.begin(), b.end());                   // iterating through second
 vector<int> d (c);                                   // copy of c
 ```
 
@@ -93,11 +93,40 @@ Một số hàm thành viên của vectơ là:
 
 ```
 set<int> s1;                               // Empty Set
-int a[]= {1, 2, 3, 4, 5, 5};
+int a[] = {1, 2, 3, 4, 5, 5};
 set<int> s2 (a, a + 6);                    // s2 = {1, 2, 3, 4, 5}
 set<int> s3 (s2);                          // Copy of s2
 set<int> s4 (s3.begin(), s3.end());        // Set created using iterators
 ```
+
+Một số hàm thành viên của tập là:
+
+**begin()**: Trả về một iterator cho phần tử đầu tiên của tập hợp. Độ phức tạp thời gian của nó là O(1).
+
+**clear()**: Xóa tất cả các phần tử trong tập hợp và tập hợp sẽ trống. Độ phức tạp thời gian của nó là O (N) trong đó N là kích thước của tập hợp.
+
+**count()**: Trả về 1 hoặc 0 nếu phần tử nằm trong tập hợp hoặc không tương ứng. Độ phức tạp thời gian của nó là O (logN) trong đó N là kích thước của tập hợp.
+
+**empty()**: Trả về true nếu tập trống và false nếu tập hợp có ít nhất một phần tử. Độ phức tạp thời gian của nó là O(1).
+
+**end()**: Trả về một iterator trỏ đến một vị trí bên cạnh phần tử cuối cùng. Độ phức tạp thời gian của nó là O(1).
+
+**erase()**: Xóa một phần tử cụ thể hoặc một loạt các phần tử khỏi tập hợp. Độ phức tạp thời gian của nó là O(N) trong đó N là số phần tử bị xóa.
+
+**find()**: Tìm kiếm một phần tử cụ thể và trả về iterator trỏ đến phần tử nếu phần tử được tìm thấy nếu không nó sẽ trả về iterator được trả về bởi end(). Độ phức tạp thời gian của nó là O (logN) trong đó N là kích thước của tập hợp.
+
+**insert()**: chèn một phần tử mới. Độ phức tạp thời gian của nó là O (logN) trong đó N là kích thước của tập hợp.
+
+**size()**: Trả về kích cỡ của tập hợp hoặc số phần tử trong tập hợp. Độ phức tạp thời gian của nó là O(1).
+
+---
+
+
+
+
+
+
+
 
 
 
