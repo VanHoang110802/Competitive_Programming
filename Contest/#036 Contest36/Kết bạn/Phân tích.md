@@ -1,4 +1,7 @@
 # Đề bài
+![ketban](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/32764caf-a298-47ca-98fb-790d3625aa42)
+
+![ketban2](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/db3b804a-89c8-41d8-9817-19705d7565e1)
 
 # Phân tích
 ```
