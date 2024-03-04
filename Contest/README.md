@@ -13,37 +13,37 @@ Xin chân thành cảm ơn!
 |:---:|:---|
 |#001|[Đề thi HSG THANH HÓA 2020](https://github.com/VanHoang110802/Competitive_Programming/tree/main/Contest/%23001%20Contest1)|
 |#002|[Contest về các kiến thức lập trình cơ bản](https://github.com/VanHoang110802/Competitive_Programming/tree/main/Contest/%23002%20Contest2)|
-|#003|[Contest về kỹ thuật mảng đếm và đánh chỉ số bằng kí tự]|
-|#004|[Contest về trượt cửa sổ, đoạn con liên tiếp, đoạn left - right, xoay vòng, tổng bảng con...]|
-|#005|[Vẫn là về trượt cửa sổ, đoạn con liên tiếp, đoạn left - right, xoay vòng, tổng bảng con...]|
-|#006|[Beginner Free Contest 01 - (Kc97ble - Free Contest)]|
-|#007|[Beginner Free Contest 02 - (Kc97ble - Free Contest)]|
-|#008|[Beginner Free Contest 03 - (Kc97ble - Free Contest)]|
-|#009|[Contest không rõ nguồn(1)]|
-|#010|[Contest không rõ nguồn(2)]|
-|#011|[Contest không rõ nguồn(3)]|
-|#012|[Contest không rõ nguồn(4)]|
-|#013|[Contest không rõ nguồn(5)]|
-|#014|[Contest không rõ nguồn(6)]|
-|#015|[Contest về số lớn]|
-|#016|[Contest về số học(toán)]|
-|#017|[Contest về quy hoạch động]|
-|#018|[Contest về DFS, BFS]|
-|#019|[Contest về hai con trỏ]|
-|#020|[Contest về stack, queue, deque, priority_queue]|
-|#021|[Contest về mảng cộng dồn (prefix sum), mảng hiệu (difference array)]|
-|#022|[Contest về mảng nâng cao 1 chút]|
-|#023|[Đề thi HSG HÀ NỘI 2014]|
-|#024|[Đề thi HSG HÀ NỘI 2015]|
-|#025|[Đề thi HSG HÀ NỘI 2016]|
-|#026|[Đề thi HSG HÀ NỘI 2017]|
-|#027|[Đề thi HSG HÀ NỘI 2018]|
-|#028|[Đề thi HSG AMSTERDAM]|
-|#029|[Đề thi minh họa HSG THANH HÓA]|
-|#030|[Đề thi HSG THANH HÓA 2023]|
-|#031|[Đề thi HSG NAM TỪ LIÊM]|
-|#032|[Đề thi khảo sát THANH HÓA 2022]|
-|#033|[Đề thi HSG HẢI DƯƠNG 2022]|
-|#034|[Contest làm quen đệ quy]|
-|#035|[Contest đệ quy cơ bản]|
+|#003|[Contest về kỹ thuật mảng đếm và đánh chỉ số bằng kí tự](https://github.com/VanHoang110802/Competitive_Programming/tree/main/Contest/%23003%20Contest3)|
+|#004|[Contest về trượt cửa sổ, đoạn con liên tiếp, đoạn left - right, xoay vòng, tổng bảng con...](https://github.com/VanHoang110802/Competitive_Programming/tree/main/Contest/%23004%20Contest4)|
+|#005|[Vẫn là về trượt cửa sổ, đoạn con liên tiếp, đoạn left - right, xoay vòng, tổng bảng con...](https://github.com/VanHoang110802/Competitive_Programming/tree/main/Contest/%23005%20Contest5)|
+|#006|[Beginner Free Contest 01 - (Kc97ble - Free Contest)](https://github.com/VanHoang110802/Competitive_Programming/tree/main/Contest/%23006%20Contest6)|
+|#007|[Beginner Free Contest 02 - (Kc97ble - Free Contest)](https://github.com/VanHoang110802/Competitive_Programming/tree/main/Contest/%23007%20Contest7)|
+|#008|[Beginner Free Contest 03 - (Kc97ble - Free Contest)](https://github.com/VanHoang110802/Competitive_Programming/tree/main/Contest/%23008%20Contest8)|
+|#009|[Contest không rõ nguồn(1)](https://github.com/VanHoang110802/Competitive_Programming/tree/main/Contest/%23009%20Contest9)|
+|#010|[Contest không rõ nguồn(2)]()|
+|#011|[Contest không rõ nguồn(3)]()|
+|#012|[Contest không rõ nguồn(4)]()|
+|#013|[Contest không rõ nguồn(5)]()|
+|#014|[Contest không rõ nguồn(6)]()|
+|#015|[Contest về số lớn]()|
+|#016|[Contest về số học(toán)]()|
+|#017|[Contest về quy hoạch động]()|
+|#018|[Contest về DFS, BFS]()|
+|#019|[Contest về hai con trỏ]()|
+|#020|[Contest về stack, queue, deque, priority_queue]()|
+|#021|[Contest về mảng cộng dồn (prefix sum), mảng hiệu (difference array)]()|
+|#022|[Contest về mảng nâng cao 1 chút]()|
+|#023|[Đề thi HSG HÀ NỘI 2014]()|
+|#024|[Đề thi HSG HÀ NỘI 2015]()|
+|#025|[Đề thi HSG HÀ NỘI 2016]()|
+|#026|[Đề thi HSG HÀ NỘI 2017]()|
+|#027|[Đề thi HSG HÀ NỘI 2018]()|
+|#028|[Đề thi HSG AMSTERDAM]()|
+|#029|[Đề thi minh họa HSG THANH HÓA]()|
+|#030|[Đề thi HSG THANH HÓA 2023]()|
+|#031|[Đề thi HSG NAM TỪ LIÊM]()|
+|#032|[Đề thi khảo sát THANH HÓA 2022]()|
+|#033|[Đề thi HSG HẢI DƯƠNG 2022]()|
+|#034|[Contest làm quen đệ quy]()|
+|#035|[Contest đệ quy cơ bản]()|
 
