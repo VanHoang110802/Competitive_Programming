@@ -99,7 +99,7 @@ set<int> s3 (s2);                          // Copy of s2
 set<int> s4 (s3.begin(), s3.end());        // Set created using iterators
 ```
 
-Một số hàm thành viên của tập là:
+Một số hàm thành viên của set là:
 
 **begin()**: Trả về một iterator cho phần tử đầu tiên của tập hợp. Độ phức tạp thời gian của nó là O(1).
 
