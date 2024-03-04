@@ -59,10 +59,45 @@ vector<int> c (b.begin(),b.end());                   // iterating through second
 vector<int> d (c);                                   // copy of c
 ```
 
+Một số hàm thành viên của vectơ là:
 
+**at()**: Trả về tham chiếu đến phần tử tại một vị trí cụ thể (cũng có thể được thực hiện bằng toán tử '[ ]'). Độ phức tạp thời gian của nó là O(1).
 
+**back()**: Trả về tham chiếu đến phần tử cuối cùng. Độ phức tạp thời gian của nó là O(1).
 
+**begin()**: Trả về một iterator trỏ đến phần tử đầu tiên của vector. Độ phức tạp thời gian của nó là O(1).
 
+**clear()**: Xóa tất cả các phần tử khỏi vectơ và gán một vectơ trống. Độ phức tạp thời gian của nó là O(N) trong đó N là kích thước của vector.
+
+**empty()**: Trả về giá trị boolean, true nếu vectơ rỗng và false nếu vectơ không trống. Độ phức tạp thời gian của nó là O(1).
+
+**end()**: Trả về một iterator trỏ đến một vị trí nằm cạnh phần tử cuối cùng của vector. Độ phức tạp thời gian của nó là O(1).
+
+**erase()**: Xóa một phần tử hoặc một dải phần tử. Độ phức tạp thời gian của nó là O (N + M) trong đó N là số phần tử bị xóa và M là số phần tử được di chuyển.
+
+**front()**: Trả về tham chiếu đến phần tử đầu tiên. Độ phức tạp thời gian của nó là O(1).
+
+**insert()**: Chèn các phần tử mới vào vectơ tại một vị trí cụ thể. Độ phức tạp thời gian ts là O (N + M) trong đó N là số phần tử được chèn vào và M là số phần tử được di chuyển .
+
+**pop_back()**: Loại bỏ phần tử cuối cùng khỏi vector. Độ phức tạp thời gian của nó là O(1).
+
+**push_back()**: Chèn một phần tử mới vào cuối vector. Độ phức tạp thời gian của nó là O(1).
+
+**resize()**: Thay đổi kích thước vectơ thành độ dài mới có thể nhỏ hơn hoặc lớn hơn chiều dài hiện tại. Độ phức tạp thời gian của nó là O (N) trong đó N là kích thước của vectơ được thay đổi kích thước.
+
+**size()**: Trả về số phần tử trong vector. Độ phức tạp thời gian của nó là O(1).
+
+---
+## set
+> là các thùng chứa chỉ lưu trữ các giá trị duy nhất và cho phép tra cứu dễ dàng. Các giá trị trong tập hợp được lưu trữ theo một số thứ tự cụ thể (như tăng dần hoặc giảm dần). Các yếu tố chỉ có thể được chèn hoặc xóa, nhưng không thể sửa đổi. Chúng ta có thể truy cập và duyệt qua các phần tử tập hợp bằng cách sử dụng các bộ lặp giống như vector.
+
+```
+set<int> s1;                               // Empty Set
+int a[]= {1, 2, 3, 4, 5, 5};
+set<int> s2 (a, a + 6);                    // s2 = {1, 2, 3, 4, 5}
+set<int> s3 (s2);                          // Copy of s2
+set<int> s4 (s3.begin(), s3.end());        // Set created using iterators
+```
 
 
 
