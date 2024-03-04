@@ -9,9 +9,9 @@ Xin chân thành cảm ơn!
 Mỗi nội dung gồm có 2 phần:
 - Phân tích: bao gồm chứa đề và cách giải, phân tích đề (Bài nào dễ sẽ có thể bỏ qua phân tích).
 - Source code giải bài
-
+-----
 [Contest 1: Đề thi HSG THANH HÓA 2020]
-
+-----
 [Contest 2: Contest về các kiến thức lập trình cơ bản]
 
 [Contest 3: Contest về kỹ thuật mảng đếm và đánh chỉ số bằng kí tự]
