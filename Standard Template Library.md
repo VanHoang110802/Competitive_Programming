@@ -259,9 +259,24 @@ Number of elements with key = 'a' in map mp are : 1
 Map is not empty
 ```
 
+---
+## Stacks:
 
+> Stack là một container tuân theo thứ tự LIFO (Last In First Out) và các phần tử được chèn và xóa từ một đầu của container. Phần tử được chèn cuối cùng sẽ được trích xuất trước.
+```
+stack <int> s;
+```
+Một số hàm thành viên của Stack là:
 
+**push()**: Chèn phần tử vào đầu stack. Độ phức tạp thời gian của nó là O(1).
 
+**pop( )**: loại bỏ phần tử khỏi đầu ngăn xếp. Độ phức tạp thời gian của nó là O(1).
+
+**top( )**: truy cập phần tử trên cùng của stack. Độ phức tạp thời gian của nó là O(1).
+
+**empty( )**: kiểm tra xem ngăn xếp có trống hay không. Độ phức tạp thời gian của nó là O(1).
+
+**size( )**: Trả về kích cỡ của stack. Độ phức tạp thời gian của nó là O(1).
 
 
 
