@@ -10,3 +10,11 @@ Xét ví dụ:
 ```
 
 ![image](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/9af862c0-3d71-4ab3-afc7-7642dfa3421f)
+
+```
+Ta sẽ đánh giá xem, đoạn sẽ nằm từ đâu đến đâu?
+Từ L = 0, R = chiều cao max
+```
+![image](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/a26bdaae-ddc6-4fb0-b4bf-a5df7681aef5)
+
+![image](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/82c202ce-5bd2-4ca1-89b9-ad6a3bee3c80)
