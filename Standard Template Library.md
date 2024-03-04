@@ -120,7 +120,46 @@ Một số hàm thành viên của set là:
 **size()**: Trả về kích cỡ của tập hợp hoặc số phần tử trong tập hợp. Độ phức tạp thời gian của nó là O(1).
 
 ---
+## map
+> Maps là các vùng chứa lưu trữ các phần tử bằng cách ánh xạ giá trị của chúng với một khóa cụ thể. Nó lưu trữ sự kết hợp của giá trị khóa và giá trị được ánh xạ theo một thứ tự cụ thể. Ở đây giá trị khóa được sử dụng để xác định duy nhất các yếu tố được ánh xạ tới nó. Kiểu dữ liệu của giá trị khóa và giá trị được ánh xạ có thể khác nhau. Các phần tử trong bản đồ luôn được sắp xếp theo thứ tự theo khóa tương ứng của chúng và có thể được truy cập trực tiếp bằng khóa của chúng bằng toán tử dấu ngoặc ([ ]).
 
+> Trong bản đồ, khóa và giá trị ánh xạ có sự kết hợp loại cặp, tức là cả khóa và giá trị ánh xạ đều có thể được truy cập bằng cách sử dụng các chức năng loại cặp với sự trợ giúp của bộ lặp.
+
+```
+map <char ,int > mp;
+
+mp['b']  = 1;
+```
+-> Nó sẽ ánh xạ giá trị 1 với khóa 'b'. Chúng ta có thể truy cập trực tiếp 1 bằng cách sử dụng mp['b']
+```
+mp['a'] = 2
+```
+-> Nó sẽ ánh xạ giá trị 2 với khóa 'a'.
+
+Trong map, các giá trị sẽ được sắp xếp theo thứ tự theo key.
+
+Lưu ý: N là số phần tử trong bản đồ.
+
+Một số hàm thành viên của map:
+
+**at( )**: Trả về một tham chiếu đến giá trị được ánh xạ của phần tử được xác định bằng khóa. Độ phức tạp thời gian của nó là O (logN).
+
+**count( )**: tìm kiếm bản đồ cho các phần tử được ánh xạ bởi khóa đã cho và trả về số lượng kết quả phù hợp. Khi bản đồ lưu trữ mỗi phần tử với khóa duy nhất, sau đó nó sẽ trả về 1 nếu phù hợp nếu tìm thấy nếu 
+không trả về 0.Độ phức tạp thời gian của nó là O (logN).
+
+**clear()**: xóa bản đồ, bằng cách xóa tất cả các phần tử khỏi bản đồ và để lại kích thước 0.Độ phức tạp thời gian của nó là O (N).
+
+**begin( )**: trả về một iterator(đã giải thích ở trên) đề cập đến phần tử đầu tiên của bản đồ. Độ phức tạp thời gian của nó là O(1).
+
+**end( )**: trả về một iterator đề cập đến phần tử lý thuyết (không trỏ đến một phần tử) theo sau phần tử cuối cùng. Độ phức tạp thời gian của nó là O(1).
+
+**empty( )**: kiểm tra xem bản đồ có trống hay không. Nó không sửa đổi bản đồ. Nó trả về 1 nếu bản đồ trống nếu không trả về 0.Độ phức tạp thời gian của nó là O (1).
+
+**erase( )**: loại bỏ một phần tử duy nhất hoặc phạm vi của phần tử khỏi bản đồ.
+
+**find( )**: Tìm kiếm bản đồ cho phần tử với khóa đã cho và trả về một bộ lặp cho nó, nếu nó có trong bản đồ nếu không nó sẽ trả về một iterator cho phần tử lý thuyết theo sau phần tử cuối cùng của bản đồ. Độ phức tạp thời gian của nó là O (logN).
+
+insert( ): chèn một phần tử duy nhất hoặc phạm vi của phần tử trong bản đồ. Độ phức tạp thời gian của nó là O (logN), khi chỉ có phần tử được chèn vào và O (1) khi vị trí cũng được đưa ra.
 
 
 
