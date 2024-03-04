@@ -44,5 +44,4 @@
 |#033|Đề thi HSG HẢI DƯƠNG 2022|
 |#034|Contest làm quen đệ quy|
 |#035|Contest đệ quy cơ bản|
-|#036|Contest tìm kiếm nhị phân|
-
+|#036|Contest Tìm kiếm nhị phân|
