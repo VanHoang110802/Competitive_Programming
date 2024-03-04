@@ -13,10 +13,10 @@
 |#002|Contest về các kiến thức lập trình cơ bản|
 |#003|Contest về kỹ thuật mảng đếm và đánh chỉ số bằng kí tự]|
 |#004|Contest về trượt cửa sổ, đoạn con liên tiếp, đoạn left - right, xoay vòng, tổng bảng con...|
-|#005|Vẫn là về trượt cửa sổ, đoạn con liên tiếp, đoạn left - right, xoay vòng, tổng bảng con...]|
-|#006|Beginner Free Contest 01 - (Kc97ble - Free Contest)]|
-|#007|Beginner Free Contest 02 - (Kc97ble - Free Contest)]|
-|#008|Beginner Free Contest 03 - (Kc97ble - Free Contest)]|
+|#005|Vẫn là về trượt cửa sổ, đoạn con liên tiếp, đoạn left - right, xoay vòng, tổng bảng con...|
+|#006|Beginner Free Contest 01 - (Kc97ble - Free Contest)|
+|#007|Beginner Free Contest 02 - (Kc97ble - Free Contest)|
+|#008|Beginner Free Contest 03 - (Kc97ble - Free Contest)|
 |#009|Contest không rõ nguồn(1)|
 |#010|Contest không rõ nguồn(2)|
 |#011|Contest không rõ nguồn(3)|
