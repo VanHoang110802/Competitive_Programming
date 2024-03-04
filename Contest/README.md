@@ -9,6 +9,8 @@ Xin chân thành cảm ơn!
 - Phân tích: bao gồm chứa đề và cách giải, phân tích đề (Bài nào dễ sẽ có thể bỏ qua phân tích).
 - Source code giải bài
 ---
+## Mục lục
+
 |STT|TÊN CONTEST|
 |:---:|:---|
 |#001|[Đề thi HSG THANH HÓA 2020]|
