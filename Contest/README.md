@@ -5,11 +5,10 @@ Các bài chủ yếu là tự làm tự code, có thể sẽ không tránh đư
 Xin chân thành cảm ơn!
 ```
 -----
-```
-Mỗi nội dung gồm có 2 phần:
-- Phân tích: bao gồm chứa đề và cách giải, phân tích đề (Bài nào dễ sẽ có thể bỏ qua phân tích).
-- Source code giải bài
-```
+## Mỗi nội dung gồm có 2 phần:
+> Phân tích: bao gồm chứa đề và cách giải, phân tích đề (Bài nào dễ sẽ có thể bỏ qua phân tích).
+> Source code giải bài
+---
 |STT|TÊN CONTEST|
 |:---:|:---|
 |#001|[Đề thi HSG THANH HÓA 2020](https://github.com/VanHoang110802/Competitive_Programming/tree/main/Contest/%23001%20Contest1)|
