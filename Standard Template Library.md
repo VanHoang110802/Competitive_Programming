@@ -159,7 +159,7 @@ không trả về 0.Độ phức tạp thời gian của nó là O (logN).
 
 **find( )**: Tìm kiếm bản đồ cho phần tử với khóa đã cho và trả về một bộ lặp cho nó, nếu nó có trong bản đồ nếu không nó sẽ trả về một iterator cho phần tử lý thuyết theo sau phần tử cuối cùng của bản đồ. Độ phức tạp thời gian của nó là O (logN).
 
-insert( ): chèn một phần tử duy nhất hoặc phạm vi của phần tử trong bản đồ. Độ phức tạp thời gian của nó là O (logN), khi chỉ có phần tử được chèn vào và O (1) khi vị trí cũng được đưa ra.
+**insert( )**: chèn một phần tử duy nhất hoặc phạm vi của phần tử trong bản đồ. Độ phức tạp thời gian của nó là O (logN), khi chỉ có phần tử được chèn vào và O (1) khi vị trí cũng được đưa ra.
 
 
 
