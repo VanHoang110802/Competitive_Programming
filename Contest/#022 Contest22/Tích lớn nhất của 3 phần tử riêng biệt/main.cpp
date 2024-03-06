@@ -5,7 +5,7 @@ using namespace std;
 #define int long long
 const int MAXN = 1e6 + 7;
 int a[MAXN];
-int n, MAX = -1e18, MIN = 1e18;
+int n;
 
 void Nhap()
 {
