@@ -1,6 +1,7 @@
 #include <iostream>
 #include <algorithm>
 #include <utility>
+#include <cstring>
 using namespace std;
 
 #define int long long
@@ -36,3 +37,4 @@ signed main()
 	XuLy();
 	return 0;
 }
+
