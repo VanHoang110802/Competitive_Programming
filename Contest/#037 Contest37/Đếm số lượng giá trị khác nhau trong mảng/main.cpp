@@ -16,7 +16,7 @@ void XuLy()
 {
 	sort(a + 1, a + n + 1);
 	int dem = 1; // a[0]
-	for (int i = 1; i < n; i++) if (a[i] != a[i - 1]) ++dem;
+	for (int i = 2; i <= n; i++) if (a[i] != a[i - 1]) ++dem;
 
 	cout << dem << '\n';
 }
