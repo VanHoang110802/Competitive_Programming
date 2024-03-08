@@ -24,7 +24,7 @@ using namespace std;
 #define int long long
 const int MAXN = 1e6 + 7;
 int a[MAXN], dp[MAXN];
-int n, maxDiff = -1e9;
+int n, maxDiff = -1e18;
 
 signed main()
 {
@@ -34,7 +34,7 @@ signed main()
     int n;
     cin >> n;
     for(int i = 1; i <= n; ++i) cin >> a[i];
-    memset(dp, 1e9, sizeof dp);
+    memset(dp, 1e18, sizeof dp);
     dp[1] = a[1];
     for(int i = 2; i <= n; ++i)
     {
