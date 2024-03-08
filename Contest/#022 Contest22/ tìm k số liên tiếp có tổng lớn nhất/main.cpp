@@ -31,12 +31,9 @@ signed main()
             ++i; --j;
             sum = a[i];
             cnt = 1;
-            //break;
         }
     }
     cout << MAX << '\n';
     for(int i = 1; i <= k; ++i) cout << a[i + vitri - 1] << ' ';
-    //int a, b, c; cin >> a >> b >> c;
-    //cout << a + b + c << '\n';
     return 0;
 }
