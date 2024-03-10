@@ -5,7 +5,7 @@ using namespace std;
 #define int long long
 const int MAXN = 1e6 + 7;
 int a[MAXN];
-int n, k;
+int n, k, sum = 0, idx = 0;
 
 void Nhap()
 {
@@ -15,15 +15,19 @@ void Nhap()
 
 void XuLy()
 {
-    int max_sum = 0;
-    for(int i = 0; i < k; i++) max_sum += a[i];
-    int window_sum = max_sum;
+    for(int i = 0; i < k; i++) sum += a[i];
+    int ans = sum;
     for(int i = k; i < n; i++)
     {
-        window_sum += a[i] - a[i - k];
-        max_sum = max(max_sum, window_sum);
+        ans += a[i] - a[i - k];
+        if(ans >= sum)
+        {
+            sum = ans;
+            idx = i - (k - 1);
+        }
     }
-    cout << max_sum << '\n';
+    cout << sum << '\n';
+    for(int i = 0; i < k; ++i) cout << a[i + idx] << ' ';
 }
 
 signed main()
