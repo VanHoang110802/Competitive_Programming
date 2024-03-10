@@ -1,4 +1,5 @@
 #include <iostream>
+#include <algorithm>
 using namespace std;
 
 #define int long long
@@ -9,14 +10,14 @@ int n, k, sum = 0, idx = 0;
 void Nhap()
 {
     cin >> n >> k;
-    for(int i = 0; i < n; ++i) cin >> a[i];
+    for(int i = 1; i <= n; ++i) cin >> a[i];
 }
 
 void XuLy()
 {
-    for(int i = 0; i < k; i++) sum += a[i];
+    for(int i = 1; i <= k; i++) sum += a[i];
     int ans = sum;
-    for(int i = k; i < n; i++)
+    for(int i = k + 1; i <= n; i++)
     {
         ans += a[i] - a[i - k];
         if(ans >= sum)
@@ -26,7 +27,7 @@ void XuLy()
         }
     }
     cout << sum << '\n';
-    for(int i = 0; i < k; ++i) cout << a[i + k] << ' ';
+    for(int i = 1; i <= k; ++i) cout << a[i + k - 1] << ' ';
 }
 
 signed main()
