@@ -23,11 +23,11 @@ void XuLy()
         if(ans >= sum)
         {
             sum = ans;
-            idx = i - (k - 1);
+            idx = i;
         }
     }
     cout << sum << '\n';
-    for(int i = 0; i < k; ++i) cout << a[i + idx] << ' ';
+    for(int i = 0; i < k; ++i) cout << a[i + k] << ' ';
 }
 
 signed main()
