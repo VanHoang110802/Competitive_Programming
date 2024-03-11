@@ -3,6 +3,14 @@
 
 # Phân tích
 ```
+4
+7 8 8 9
+504
+
+4
+9 7 8 9
+504
+
 Chú ý đến số âm, nếu 2 âm nhân với nhau, nhân tiếp với phần tử cuối mà lớn hơn
 3 số dương nhân với nhau thì đó vẫn tính là max.
 ```
