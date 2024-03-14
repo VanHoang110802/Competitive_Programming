@@ -1,29 +1,43 @@
 #include <iostream>
-#include <algorithm>
+
 using namespace std;
 
 #define int long long
 const int MAXN = 1e6 + 7;
-int a[MAXN];
+int a[MAXN], PreMax[MAXN], PostMin[MAXN];
+int n, ans = -1e18;
+
+void Nhap()
+{
+    cin >> n;
+    for(int i = 1; i <= n; ++i) cin >> a[i];
+}
+
+void XuLy()
+{
+    PreMax[0] = -1e18;
+    PostMin[n + 1] = 1e18;
+    for(int i = 1; i <= n; ++i)
+    {
+        PreMax[i] = max(PreMax[i - 1], a[i]);
+    }
+    for(int i = n; i >= 1; --i)
+    {
+        PostMin[i] = min(PostMin[i + 1], a[i]);
+    }
+    for(int i = 2; i <= n - 1; ++i)
+    {
+        ans = max(ans, PreMax[i - 1] + a[i] - PostMin[i + 1]);
+    }
+    cout << ans;
+}
 
 signed main()
 {
-    ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
-    int n, MAX = -1e18; cin >> n;
-    for(int i = 1; i <= n; ++i) cin >> a[i];
-
-    for (int i = 1; i <= n; ++i)
-    {
-        int j = i + 1, k = n;
-        while (j < k)
-        {
-            int ans = a[i] + a[j] - a[k];
-            MAX = max(MAX, ans);
-            if (ans < 0) --k;
-            else ++j;
-        }
-    }
-
-    cout << MAX << '\n';
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+    Nhap();
+    XuLy();
     return 0;
 }
