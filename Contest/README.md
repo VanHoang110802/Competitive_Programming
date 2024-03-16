@@ -50,3 +50,4 @@
 |#039|Lại là contest về qhd|
 |#040|Contest về số nguyên tố|
 |#041|Contest ôn lại basic|
+|#042|Contest tiếp tục về DFS|
