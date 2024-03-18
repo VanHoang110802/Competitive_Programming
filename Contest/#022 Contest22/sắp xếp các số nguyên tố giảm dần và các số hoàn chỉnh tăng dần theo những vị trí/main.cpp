@@ -32,7 +32,7 @@ int POW(int x, int y)
     if (y == 0) return 1;
     if (x == 0) return 0;
     int temp = POW(x, y / 2);
-    if (y % 2 == 0)	return (temp * temp);
+    if (y % 2 == 0) return (temp * temp);
     else return (temp * temp * x);
 }
 
