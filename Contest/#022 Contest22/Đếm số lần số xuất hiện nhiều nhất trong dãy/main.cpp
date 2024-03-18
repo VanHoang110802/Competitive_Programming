@@ -1,33 +1,41 @@
 #include <iostream>
-#include <map>
+#include <unordered_map>
 using namespace std;
 
-#define int long long
 const int MAXN = 1e6 + 7;
 int a[MAXN];
-int n, MAX = -1e18;
-map<int, int> MAP;
+int n;
 
 void Nhap()
 {
-	cin >> n;
-	for (int i = 1; i <= n; ++i)
-	{
-		cin >> a[i];
-		MAP[a[i]]++;
-		MAX = max(MAX, a[i]);
-	}
+    cin >> n;
+    //for(int i = 1; i <= n; ++i) cin >> a[i];
 }
 
 void XuLy()
 {
-	cout << MAP[MAX] << ' ' << MAX << '\n';
+    unordered_map<int,int> cnt;
+    int cntmax = 0, maxx = -1e9;
+    for(int i = 1; i <= n; ++i)
+    {
+        cin >> a[i];
+        cnt[a[i]]++;
+        if(cntmax < cnt[a[i]])
+        {
+            cntmax = cnt[a[i]];
+            maxx = a[i];
+        }
+        else if(cntmax == cnt[a[i]] && maxx < a[i]) maxx = a[i];
+    }
+    cout << cntmax << ' ' << maxx;
 }
 
 signed main()
 {
-	ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
-	Nhap();
-	XuLy();
-	return 0;
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+    Nhap();
+    XuLy();
+    return 0;
 }
