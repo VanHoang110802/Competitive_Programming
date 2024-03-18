@@ -11,12 +11,12 @@
 5 6 5 28 5 6
 */
 
+// ~3 * 1e6
 #include <iostream>
 #include <map>
 #include <vector>
 #include <algorithm>
 #include <cstring>
-#include <cmath>
 using namespace std;
 
 #define int long long
@@ -36,7 +36,7 @@ int POW(int x, int y)
     else return (temp * temp * x);
 }
 
-void SieveOfEratosthenes()
+void SieveOfEratosthenes() // O(N * log(log(N))
 {
     memset(prime, true, sizeof(prime));
     prime[0] = false;
@@ -51,21 +51,28 @@ void SieveOfEratosthenes()
     }
 }
 
-void SangSoHoanHao()
+void SangSoHoanHao() // 8 lan chay la maximum
 {
-    int ans = 0;
-    for(int i = 1; i <= N; ++i)
+    int ans = 0, i = 1;
+    while(1)
     {
         if(prime[i])
         {
             ans = POW(2, i - 1) * (POW(2, i) - 1);
             MAP[ans] = true;
         }
+        ++i;
         if(ans > 1e18) break;
     }
 }
 
-void SortArray()
+void Nhap()
+{
+    cin >> n;
+    for(int i = 1; i <= n; ++i) cin >> arr[i];
+}
+
+void XuLy()
 {
     for(int i = 1; i <= n; ++i) // O(N)
     {
@@ -73,8 +80,8 @@ void SortArray()
         if(prime[arr[i]]) v2.push_back(arr[i]);
     }
 
-    sort(v2.begin(), v2.end(), greater<int>()); // O(N * log(N))
-    sort(v1.begin(), v1.end());                 // O(N * log(N))
+    sort(v2.begin(), v2.end(), greater<int>()); // O(N * log(N)) = 2 * 1e6
+    sort(v1.begin(), v1.end());                 // O(N * log(N)) = 8 * log(8) = 16
 
     int j = 0, k = 0;
     for(int i = 1; i <= n; ++i) // O(N)
@@ -91,12 +98,10 @@ void SortArray()
 
 signed main()
 {
+    ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
     SieveOfEratosthenes();
     SangSoHoanHao();
-    cin >> n;
-    for(int i = 1; i <= n; ++i) cin >> arr[i];
-    SortArray();
-    //cout << 2 * (N * log(N));
+    Nhap();
+    XuLy();
     return 0;
 }
-
