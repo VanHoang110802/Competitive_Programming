@@ -7,10 +7,6 @@ using namespace std;
 #define fi first
 #define se second
 
-const int MAXN = 5 * 1e5 + 10;
-int a[MAXN], b[MAXN];
-
-
 void solve()
 {
     int n;
