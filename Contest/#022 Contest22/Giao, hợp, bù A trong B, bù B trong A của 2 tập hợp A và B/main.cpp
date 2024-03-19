@@ -15,7 +15,7 @@ unordered_map <int, bool> check1;
 unordered_map <int, bool> check2;
 unordered_map <int, bool> check3;
 
-void inp()
+void Nhap()
 {
     cin >> n >> m;
     for(int i = 1; i <= n; i++)
@@ -31,7 +31,7 @@ void inp()
     }
 }
 
-void giao()
+void PhanGiao()
 {
     for(int i = 1; i <= n; i++)
     {
@@ -64,8 +64,9 @@ void setup()
     }
 }
 
-void hop()
+void PhanHop()
 {
+    setup();
     int flad = 0, MAXMN = max(m, n);
     for(int i = 1; i <= MAXMN; i++)
     {
@@ -115,7 +116,7 @@ void hop()
     cout << '\n';
 }
 
-void Bu()
+void PhanBu()
 {
     for(int i = 1; i <= m; ++i)
     {
@@ -135,14 +136,18 @@ void Bu()
     cout << '\n';
 }
 
+void Xuly()
+{
+    PhanGiao();
+    PhanHop();
+    PhanBu();
+}
+
 signed main()
 {
     ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
-    inp();
-    giao();
-    setup();
-    hop();
-    Bu();
+    Nhap();
+    Xuly();
     return 0;
 }
 
