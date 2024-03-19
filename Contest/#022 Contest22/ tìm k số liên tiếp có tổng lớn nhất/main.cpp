@@ -27,7 +27,7 @@ void XuLy()
         }
     }
     cout << sum << '\n';
-    for(int i = 1; i <= k; ++i) cout << a[i + k - 1] << ' ';
+    for(int i = 1; i <= k; ++i) cout << a[i + k + 1] << ' ';
 }
 
 signed main()
