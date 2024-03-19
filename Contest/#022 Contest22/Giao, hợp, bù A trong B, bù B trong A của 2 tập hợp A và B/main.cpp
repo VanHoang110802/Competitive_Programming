@@ -1,15 +1,7 @@
-/*
-7 6
-9 5 8 6 2 7 6
-9 2 3 4 6 5
-
-*/
-
 #include <iostream>
 #include <algorithm>
 #include <unordered_map>
 #include <vector>
-#include <stack>
 using namespace std;
 
 #define int long long
@@ -20,8 +12,8 @@ vector <int> Myvector[MAXN];
 unordered_map <int, bool> Mymap;
 unordered_map <int, bool> check;
 unordered_map <int, bool> check1;
-stack <int> st1;
-stack <int> st2;
+unordered_map <int, bool> check2;
+unordered_map <int, bool> check3;
 
 void inp()
 {
@@ -29,11 +21,13 @@ void inp()
     for(int i = 1; i <= n; i++)
     {
         cin >> a[i];
+        check2[a[i]] = true;
     }
     for(int i = 1; i <= m; i++)
     {
         cin >> b[i];
         Mymap[b[i]] = true;
+        check3[b[i]] = true;
     }
 }
 
@@ -72,8 +66,8 @@ void setup()
 
 void hop()
 {
-    int flad = 0;
-    for(int i = 1; i <= max(m, n); i++)
+    int flad = 0, MAXMN = max(m, n);
+    for(int i = 1; i <= MAXMN; i++)
     {
         if(Myvector[i].size() == 1 && flad == 0)
         {
@@ -113,16 +107,32 @@ void hop()
             Myvector[i].erase(Myvector[i].begin());
         }
 
-        if(i == max(m, n) && flad != 0)
+        if(i == MAXMN && flad != 0)
         {
             i = flad - 1;
         }
     }
+    cout << '\n';
 }
 
 void Bu()
 {
-    
+    for(int i = 1; i <= m; ++i)
+    {
+        if(check3.find(a[i]) == check3.end() && a[i] != NULL)
+        {
+            cout << a[i] << ' ';
+        }
+    }
+    cout << '\n';
+    for(int i = 1; i <= n; ++i)
+    {
+        if(check2.find(b[i]) == check2.end() && b[i] != NULL)
+        {
+            cout << b[i] << ' ';
+        }
+    }
+    cout << '\n';
 }
 
 signed main()
@@ -135,3 +145,14 @@ signed main()
     Bu();
     return 0;
 }
+
+/*
+7 6
+9 5 8 6 2 7 6
+9 2 3 4 6 5
+
+7 6
+9 5 8 1 2 7 6
+9 2 8 4 6 3
+
+*/
