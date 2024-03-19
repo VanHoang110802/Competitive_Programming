@@ -58,7 +58,7 @@ void SangSoHoanHao() // 8 lan chay la maximum
     {
         if(prime[i])
         {
-            ans = POW(2, i - 1) * (POW(2, i) - 1);
+            ans = POW(2, i - 1) * (POW(2, i) - 1); // 2^(p - 1) * (2^p) - 1
             MAP[ans] = true;
         }
         ++i;
