@@ -16,7 +16,9 @@
 */
 
 // ~3 * 1e6
+
 #include <iostream>
+#include <ctime>
 #include <map>
 #include <vector>
 #include <algorithm>
@@ -80,8 +82,11 @@ void XuLy()
 {
     for(int i = 1; i <= n; ++i) // O(N)
     {
-        if(MAP[arr[i]]) v1.push_back(arr[i]);
-        if(prime[arr[i]]) v2.push_back(arr[i]);
+        if(arr[i] > 1)
+        {
+            if(MAP[arr[i]]) v1.push_back(arr[i]);
+            else if(prime[arr[i]]) v2.push_back(arr[i]);
+        }
     }
 
     sort(v2.begin(), v2.end(), greater<int>()); // O(N * log(N)) = 2 * 1e6
@@ -103,9 +108,12 @@ void XuLy()
 signed main()
 {
     ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     SieveOfEratosthenes();
     SangSoHoanHao();
     Nhap();
     XuLy();
+    //cout << "\nTime elapsed: " << 1000.0 * clock() / CLOCKS_PER_SEC << " ms.\n";
     return 0;
 }
