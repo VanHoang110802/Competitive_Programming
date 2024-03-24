@@ -1,8 +1,7 @@
-### ABCXYZ
+### Cá nhân
 ---
 Mình thiệt thòi hơn người ta, thì mình phải cố gắng chăm gấp đôi hơn người ta...
 
-### Cá nhân
 ---
 ![icpc_1](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/b36bb961-ad46-4bf3-a389-f772e90e8882)
 
