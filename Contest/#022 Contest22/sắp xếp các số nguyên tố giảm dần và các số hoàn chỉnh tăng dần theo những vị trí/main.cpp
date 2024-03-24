@@ -26,33 +26,35 @@
 using namespace std;
 
 #define int long long
-const int N = 1e6 + 7;
-bool prime[N];
-int arr[N], perfect[N];
-int n;
-map<int, bool> MAP;
+const int MAXN = 1e6 + 7;
+bool CheckNguyenTo[MAXN];
+int arr[MAXN], perfect[MAXN];
+map<int, bool> CheckSoHoanHao;
 vector<int> v1, v2;
+int n;
 
 int POW(int x, int y)
 {
-    if (y == 0) return 1;
-    if (x == 0) return 0;
+    if(y == 0) return 1;
+    if(x == 0) return 0;
     int temp = POW(x, y / 2);
-    if (y % 2 == 0) return (temp * temp);
+    if(y % 2 == 0) return (temp * temp);
     else return (temp * temp * x);
 }
 
-void SieveOfEratosthenes() // O(N * log(log(N))
+void SieveOfEratosthenes() // O(log(log(N))
 {
-    memset(prime, true, sizeof(prime));
-    prime[0] = false;
-    prime[1] = false;
-    for(int i = 2; i * i <= N; ++i)
+    memset(CheckNguyenTo, true, sizeof(CheckNguyenTo));
+    CheckNguyenTo[0] = false;
+    CheckNguyenTo[1] = false;
+    for(int i = 2; i * i <= MAXN; ++i)
     {
-        if(prime[i] == true)
+        if(CheckNguyenTo[i])
         {
-            for(int j = i * i; j <= N; j += i)
-                prime[j] = false;
+            for(int j = i * i; j <= MAXN; j += i)
+            {
+                CheckNguyenTo[j] = false;
+            }
         }
     }
 }
@@ -62,10 +64,10 @@ void SangSoHoanHao() // 8 lan chay la maximum
     int ans = 0, i = 1;
     while(1)
     {
-        if(prime[i])
+        if(CheckNguyenTo[i])
         {
             ans = POW(2, i - 1) * (POW(2, i) - 1); // 2^(p - 1) * (2^p) - 1
-            MAP[ans] = true;
+            CheckSoHoanHao[ans] = true;
         }
         ++i;
         if(ans > 1e18) break;
@@ -84,8 +86,8 @@ void XuLy()
     {
         if(arr[i] > 1)
         {
-            if(MAP[arr[i]]) v1.push_back(arr[i]);
-            else if(prime[arr[i]]) v2.push_back(arr[i]);
+            if(CheckSoHoanHao[arr[i]]) v1.push_back(arr[i]);
+            else if(CheckNguyenTo[arr[i]]) v2.push_back(arr[i]);
         }
     }
 
@@ -95,25 +97,30 @@ void XuLy()
     int j = 0, k = 0;
     for(int i = 1; i <= n; ++i) // O(N)
     {
-        if(prime[arr[i]])
+        if(CheckNguyenTo[arr[i]])
+        {
             arr[i] = v2[k++];
-
-        if(MAP[arr[i]])
+        }
+        if(CheckSoHoanHao[arr[i]])
+        {
             arr[i] = v1[j++];
-
+        }
         cout << arr[i] << ' ';
     }
 }
 
 signed main()
 {
-    ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
-    //freopen("input.txt", "r", stdin);
-    //freopen("output.txt", "w", stdout);
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
     SieveOfEratosthenes();
     SangSoHoanHao();
     Nhap();
     XuLy();
-    //cout << "\nTime elapsed: " << 1000.0 * clock() / CLOCKS_PER_SEC << " ms.\n";
+    cout << "\nTime elapsed: " << 1000.0 * clock() / CLOCKS_PER_SEC << " ms.\n";
     return 0;
 }
+
