@@ -1,9 +1,5 @@
 #include <iostream>
 #include <iomanip>
-#include <cmath>
-#include <algorithm>
-#include <map>
-#include <vector>
 using namespace std;
 
 #define int long long
