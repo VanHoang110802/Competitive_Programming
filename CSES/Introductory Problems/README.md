@@ -1,7 +1,7 @@
 |NAME|AC|
 |---|:---:|
 |Weird Algorithm|AC|
-|Missing Number|AC|
+|Missing Number|EMPTY|
 |Repetitions|EMPTY|
 |Increasing Array|EMPTY|
 |Permutations|EMPTY|
