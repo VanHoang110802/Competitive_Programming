@@ -1,6 +1,6 @@
 |NAME|AC|
 |---|:---:|
-|Mã hóa|EMPTY|
-|Khoảng cách|EMPTY|
-|Khóa bảng|EMPTY|
-|Trò chơi|EMPTY|
+|TRUY VẾT|EMPTY|
+|NĂNG LƯỢNG MẶT TRỜI|EMPTY|
+|CẦU KÍNH|EMPTY|
+|SẠC ẮC QUY|EMPTY|
