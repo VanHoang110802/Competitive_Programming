@@ -1,3 +1,9 @@
+/*
+Ta biết hình chữ nhật có các cặp cạnh đối bằng nhau
+Nên số lần xuất hiện của các số phải >= 2
+Xét tiếp trường hợp có số lần xuất hiện >= 4 thì là hình vuông
+*/
+
 #include <iostream>
 #include <iomanip>
 #include <cmath>
