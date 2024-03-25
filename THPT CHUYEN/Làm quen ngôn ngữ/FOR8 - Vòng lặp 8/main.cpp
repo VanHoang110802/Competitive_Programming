@@ -7,20 +7,6 @@ using namespace std;
 #define int long long
 const int MOD = 1e9+7;
 
-template <typename vanhoang>
-vanhoang POW(vanhoang a, vanhoang n)
-{
-    vanhoang ans = 1;
-    vanhoang temp = a;
-    while(n)
-    {
-        if(n % 2) (ans *= temp) %= MOD;
-        temp = temp * temp % MOD;
-        n /= 2;
-    }
-    return ans;
-}
-
 void XuLy()
 {
     int n, a, b, c;
