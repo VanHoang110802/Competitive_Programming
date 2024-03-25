@@ -1,5 +1,5 @@
-![Beginner Free Contest 2 - INTERACTIVE](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/e18879f2-2646-4fab-b2ea-a60438a06a82)
+![Beginner Free Contest 2 - CANDY](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/448dd2c1-895c-447f-9cd5-68270baea0d0)
 
-![Beginner Free Contest 2 - INTERACTIVE2](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/6dd8ab1c-3ccc-470b-9854-3195ea3150e6)
+![Beginner Free Contest 2 - CANDY2](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/607d4c3a-2989-42a0-8b6e-bb980093290b)
 
-![Beginner Free Contest 2 - INTERACTIVE3](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/35cd68f4-f9fa-4784-8450-c4f12b13a93d)
+![Beginner Free Contest 2 - CANDY3](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/684b303c-c34f-49d3-8afa-ee4f8c0613c7)
