@@ -49,7 +49,7 @@ void setup()
 {
     for(int i = 1; i <= n; ++i)
     {
-        if(!check1[arr1[i]])
+        if(check1[arr1[i]] == false)
         {
             Myvector[i].push_back(arr1[i]);
             check1[arr1[i]] = true;
@@ -57,7 +57,7 @@ void setup()
     }
     for(int i = 1; i <= m; ++i)
     {
-        if(!check1[arr2[i]])
+        if(check1[arr2[i]] == false)
         {
             Myvector[i].push_back(arr2[i]);
             check1[arr2[i]] = true;
@@ -119,17 +119,17 @@ void PhanHop()
 
 void PhanBu()
 {
-    for(int i = 1; i <= m; ++i)
+    for(int i = 1; i <= n; ++i)
     {
-        if(check3.find(arr1[i]) == check3.end() && arr1[i] != NULL)
+        if(check3.find(arr1[i]) == check3.end())
         {
             cout << arr1[i] << ' ';
         }
     }
     cout << '\n';
-    for(int i = 1; i <= n; ++i)
+    for(int i = 1; i <= m; ++i)
     {
-        if(check2.find(arr2[i]) == check2.end() && arr2[i] != NULL)
+        if(check2.find(arr2[i]) == check2.end())
         {
             cout << arr2[i] << ' ';
         }
@@ -167,4 +167,7 @@ signed main()
 9 5 8 1 2 7 6
 9 2 8 4 6 3
 
+4 5
+1 2 3 4
+5 3 4 1 7
 */
