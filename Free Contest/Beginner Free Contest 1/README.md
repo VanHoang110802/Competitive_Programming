@@ -1,5 +1,7 @@
-|Beginner Free Contest 1 - C3|
-|Beginner Free Contest 1 - COLOR|
-|Beginner Free Contest 1 - HEIGHT|
-|Beginner Free Contest 1 - KSUM|
-|Beginner Free Contest 1 - MAXSUM|
+|NAME|AC|
+|---|---|
+|Beginner Free Contest 1 - C3|AC|
+|Beginner Free Contest 1 - COLOR|NOT AC|
+|Beginner Free Contest 1 - HEIGHT|AC|
+|Beginner Free Contest 1 - KSUM|AC|
+|Beginner Free Contest 1 - MAXSUM|AC|
