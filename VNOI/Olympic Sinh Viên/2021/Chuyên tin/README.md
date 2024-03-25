@@ -3,4 +3,4 @@
 |Mã hóa|EMPTY|
 |Khoảng cách|EMPTY|
 |Khóa bảng|EMPTY|
-|Trò chơi |EMPTY|
+|Trò chơi|EMPTY|
