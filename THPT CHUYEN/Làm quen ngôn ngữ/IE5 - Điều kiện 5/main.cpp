@@ -9,10 +9,10 @@ void XuLy()
 {
     int a, b;
     cin >> a >> b;
-    long long ans = a * b;
-    long long cs1 = ans % 10;
+    int ans = a * b;
+    int cs1 = ans % 10;
     ans /= 10;
-    long long cs2 = ans % 10;
+    int cs2 = ans % 10;
     if((cs1 + cs2) % 3 == 0) cout << "YES";
     else cout << "NO";
 }
