@@ -1,59 +1,68 @@
 #include <iostream>
+#include <iomanip>
 #include <vector>
 #include <algorithm>
 #include <set>
 using namespace std;
 
-const int MAXN = 1e3 + 7;
-vector<int> adj[MAXN];
+const int MAXN = 1e4 + 7;
+vector<int> num[MAXN];
 set<int> ans[MAXN];
-bool Check[MAXN];
-int n, m, temp;
-
-void Nhap()
-{
-    cin >> n >> m;
-    for(int i = 1; i <= m; ++i)
-    {
-        int u, v; cin >> u >> v;
-        adj[u].push_back(v);
-        adj[v].push_back(u);
-    }
-}
+bool check[MAXN];
+int n, m, cnt = 0;
 
 void dfs(int u)
 {
-    Check[u] = true;
-    ans[temp].insert(u);
-    for(auto v : adj[u])
+    check[u] = true;
+    ans[cnt].insert(u);
+    for(auto v : num[u])
     {
-        if(!Check[v]) dfs(v);
+        if(!check[v])
+        {
+            dfs(v);
+        }
     }
 }
 
-void sol()
+void XuLy()
 {
+    cin >> n >> m;
     for(int i = 1; i <= n; ++i)
     {
-        if(!Check[i])
+        int u, v; cin >> u >> v;
+        num[u].push_back(v);
+        num[v].push_back(u);
+    }
+
+    for(int i = 1; i <= n; ++i)
+    {
+        if(!check[i])
         {
-            temp++;
+            ++cnt;
             dfs(i);
         }
     }
-    cout << temp << '\n';
-    for(int i = 1; i <= temp; ++i)
+
+    cout << cnt << '\n';
+    for(int i = 1; i <= cnt; ++i)
     {
         cout << ans[i].size() << ' ';
-        for(auto x : ans[i]) cout << x << ' ';
+        for(auto x : ans[i])
+        {
+            cout << x << ' ';
+        }
         cout << '\n';
     }
 }
 
 signed main()
 {
-    ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
-    Nhap();
-    sol();
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+    XuLy();
+    cout << "\nTime elapsed: " << 1000.0 * clock() / CLOCKS_PER_SEC << " ms.\n";
     return 0;
 }
