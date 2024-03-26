@@ -27,7 +27,7 @@ void dfs(int u)
 void XuLy()
 {
     cin >> n >> m;
-    for(int i = 1; i <= n; ++i)
+    for(int i = 1; i <= m; ++i)
     {
         int u, v; cin >> u >> v;
         num[u].push_back(v);
