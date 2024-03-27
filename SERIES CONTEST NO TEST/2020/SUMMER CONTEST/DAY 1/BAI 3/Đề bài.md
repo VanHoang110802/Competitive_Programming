@@ -1,0 +1,5 @@
+![bai3](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/c66f84c8-4a0a-4fbb-bd93-6d60b8bb01b7)
+![bai3_1](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/84182cac-7b0a-406e-b66c-687a3ad8b7f7)
+![bai3_2](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/7d057db8-65c8-476c-a163-256cc9beafd7)
+![bai3_3](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/1367ed13-2f7f-42c7-860d-846a949a066b)
+![bai3_4](https://github.com/VanHoang110802/Competitive_Programming/assets/108053955/c61b4636-cfe9-4f36-8aec-4312a12ac479)
