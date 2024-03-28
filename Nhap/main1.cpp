@@ -1,36 +1,77 @@
+/*
+https://stackoverflow.com/questions/26766440/parallelogram-with-3-loops-with-c
+*/
+
 #include <iostream>
-#include <ctime>
+#include <iomanip>
 using namespace std;
 
-int n;
-
-void Nhap()
+void VeHBH(int n)
 {
-    cin >> n;
+    int sp, st;
+    int r = (n * 2) - 1;
+
+    for(int i = 0; i < r; i++)
+    {
+        if(i <= (r/2))
+        {
+            sp = 0;
+            st = i + 1;
+        }
+        else
+        {
+            sp = i - (r / 2);
+            st = r - i;
+        }
+        for(int j = 0; j < sp; j++) cout << ' ';
+        for(int k = 0; k < st; k++) cout << '*';
+        cout << '\n';
+    }
+}
+
+void VeHX(int n)
+{
+    for (int i = 1; i <= n; ++i)
+    {
+        for (int j = 1; j <= i; ++j)
+        {
+            cout << '*';
+        }
+        for (int j = 1; j <= 2 * (n - i); ++j)
+        {
+            cout << ' ';
+        }
+        for (int j = 1; j <= i; ++j)
+        {
+            cout << '*';
+        }
+        cout << '\n';
+    }
+
+    for (int i = n; i >= 1; --i)
+    {
+        for (int j = 1; j <= i; ++j)
+        {
+            cout << '*';
+        }
+        for (int j = 1; j <= 2 * (n - i); ++j)
+        {
+            cout << ' ';
+        }
+        for (int j = 1; j <= i; ++j)
+        {
+            cout << '*';
+        }
+        cout << '\n';
+    }
 }
 
 void XuLy()
 {
-    for(int i = 1; i <= n; i++)
-    {
-        for(int j = 1; j <= i; j++)
-        {
-            cout << '*';
-        }
-        cout << '\n';
-    }
-    for(int i = 1; i <= n-1; i++)
-    {
-        for(int j = 1; j <= i; j++)
-        {
-            cout << ' ';
-        }
-        for(int j = i; j <= n - 1; j++)
-        {
-            cout << '*';
-        }
-        cout << '\n';
-    }
+    int n;
+    cin >> n;
+    VeHBH(n);
+    //VeHX(n);
 }
 
 signed main()
@@ -40,9 +81,7 @@ signed main()
     cout.tie(0);
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
-    Nhap();
     XuLy();
-    cout << "\nTime elapsed: " << 1000.0 * clock() / CLOCKS_PER_SEC << " ms.\n";
+    cout << "\n\nTime elapsed: " << 1000.0 * clock() / CLOCKS_PER_SEC << " ms.";
     return 0;
 }
-
